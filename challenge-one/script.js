@@ -30,6 +30,6 @@ if (markBMI > johnBMI) {
     if (johnBMI > markBMI) {
         console.log(`John has a ${johnBMI} BMI wihci is higher than Mark.`);
     } else {
-        console.log("Mark and John have the same BMI.");
+        console.log(`Mark and John have the same [ ${johnBMI}, ${markBMI} ] BMI.`);
     }
 }
